@@ -21,6 +21,6 @@ rl.on('line', (input) => {
         }
     }
 
-    console.log(sum);
+
     rl.close();
 });
