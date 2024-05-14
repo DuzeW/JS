@@ -8,4 +8,5 @@ const rl = readline.createInterface({
 
 rl.on('line', (input) => {
     console.log(input);
+    rl.close();
 });
