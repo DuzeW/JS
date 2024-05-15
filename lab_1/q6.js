@@ -21,6 +21,7 @@ rl.on('line', (input) => {
             output += " " + tab[i];
         }
         console.log(output);
+
     }
     rl.close();
 });
